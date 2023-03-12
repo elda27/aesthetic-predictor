@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "aesthetic-predictor"
+version = "0.1.0"
+description = "A python package of aesthetic quality of pictures a.k.a `aesthic-predictor`."
+authors = ["elda27 <kaz.birdstick@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "aesthetic_predictor"}]
+repository = 
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.13.1"
+open-clip-torch = "^2.16.0"
+pytest-coverage = "^0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+isort = "^5.12.0"
+pytest = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
