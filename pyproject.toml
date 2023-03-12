@@ -6,7 +6,7 @@ authors = ["elda27 <kaz.birdstick@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "aesthetic_predictor"}]
-repository = 
+repository = "https://github.com/elda27/aesthetic-predictor"
 
 [tool.poetry.dependencies]
 python = "^3.8"
