@@ -4,4 +4,10 @@ from aesthetic_predictor.libs import (
     predict_aesthetic,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
+
+__all__ = [
+    "get_aesthetic_model",
+    "get_clip_model",
+    "predict_aesthetic",
+]

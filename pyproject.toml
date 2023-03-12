@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aesthetic-predictor"
-version = "0.1.0"
+version = "0.1.1"
 description = "A python package of aesthetic quality of pictures a.k.a `aesthic-predictor`."
 authors = ["elda27 <kaz.birdstick@gmail.com>"]
 license = "MIT"
